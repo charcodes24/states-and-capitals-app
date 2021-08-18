@@ -13,7 +13,7 @@
       "image": "https://images.unsplash.com/photo-1547833189-5be29146428d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YWxhYmFtYXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "fact": "While Mardi Gras is most associated with New Orleans, the Alabama city of Mobile is where the tradition originated in the US.",
       "est": 1819,
-      "likes": 33
+      "likes": 34
     },
     {
       "id": 2,
@@ -73,7 +73,7 @@
       "image": "https://images.unsplash.com/photo-1446630073557-fca43d580fbe?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fGNhbGlmb3JuaWF8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "fact": "California's Sequoia National Park is home to the world's biggest tree by volume, a sequoia named General Sherman.  ",
       "est": 1850,
-      "likes": 14
+      "likes": 16
     },
     {
       "id": 6,
@@ -208,7 +208,7 @@
       "image": "https://images.unsplash.com/photo-1514442624917-484106ff24b3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW5kaWFuYXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "fact": "Indiana, the “Crossroads of America,” has more miles of interstate per sq mile than any other US state. ",
       "est": 1816,
-      "likes": 6
+      "likes": 7
     },
     {
       "id": 15,
@@ -343,7 +343,7 @@
       "image": "https://images.unsplash.com/photo-1550594427-417e0a74911f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWlubmVzb3RhfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "fact": "Bloomington’s Mall of America is 4.87 million square feet and could fit seven Yankee Stadiums inside it. Surprisingly, it’s only the fifth largest shopping mall in the country by retail space.",
       "est": 1858,
-      "likes": 10
+      "likes": 11
     },
     {
       "id": 24,
@@ -388,7 +388,7 @@
       "image": "https://images.unsplash.com/photo-1610833783667-f00a448a97f0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bW9udGFuYXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "fact": "The only state in the US with a Triple Divide, which allows waters to flow to Hudson Bay, the Atlantic Ocean, and the Pacific Ocean.",
       "est": 1889,
-      "likes": 3
+      "likes": 4
     },
     {
       "id": 27,
@@ -403,7 +403,7 @@
       "image": "https://images.unsplash.com/photo-1601995163168-0894a017d6d1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bmVicmFza2F8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "fact": "Kool-Aid was invented in the town of Hastings in 1927. ",
       "est": 1867,
-      "likes": 3
+      "likes": 4
     },
     {
       "id": 28,
@@ -703,7 +703,7 @@
       "image": "https://images.unsplash.com/photo-1596688056149-f649dc280cc8?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8d2FzaGluZ3RvbnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "fact": "Pub trivia in Seattle might host a picture round of salmon; Washingtonians are expected to know their spawning chinook from non-spawning coho.",
       "est": 1889,
-      "likes": 5
+      "likes": 6
     },
     {
       "id": 48,
@@ -755,4 +755,5 @@
       "est": 1890,
       "likes": 7
     }
-]}
+  ]
+}

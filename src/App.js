@@ -9,6 +9,7 @@ import FunFactsContainer from './FunFactsComponents/FunFactsContainer';
 function App() {
   const [states, setStates] = useState([])
 
+  //Initial GET fetch for all states
   useEffect(() => {
     fetch("http://localhost:3004/states")
       .then((res) => res.json())
@@ -18,6 +19,14 @@ function App() {
       });
   }, []);
 
+  //function to update likes on individual state cards in FunFactsContainer.js
+  function updateLikes(updatedState) {
+    setStates((states) => 
+      states.map((state) => {
+        return state.id === updatedState.id ? updatedState : state;
+      }))
+  };
+
   return (
     <div className="App">
       <NavBar />
@@ -25,6 +34,7 @@ function App() {
         <Route path="/funfacts">
           <FunFactsContainer
             states={states}
+            updateLikes={updateLikes}
           />
         </Route>
         <Route path="/">
