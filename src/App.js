@@ -10,6 +10,7 @@ import Home from './Home';
 
 function App() {
   const [states, setStates] = useState([])
+  const [score, setScore] = useState(0)
 
   //Initial GET fetch for all states
   useEffect(() => {
@@ -29,6 +30,10 @@ function App() {
       }))
   };
 
+  function updateScore(score) {
+    setScore(score + 1)
+  }
+
   return (
     <div className="App">
       <NavBar />
@@ -40,7 +45,7 @@ function App() {
           <QuizContainer states={states} />
         </Route>
         <Route path="/scorecard">
-          <ScoreCard />
+          <ScoreCard score={score}/>
         </Route>
         <Route exact path="/">
           <Home />

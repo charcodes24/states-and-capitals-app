@@ -1,5 +1,8 @@
-export default function ScoreCard () {
+export default function ScoreCard ({ score }) {
     return (
-        <div>scorecard</div>
+        <div>
+            <div>Times up!</div>
+            <div>{score}</div>
+        </div>
     )
 }
