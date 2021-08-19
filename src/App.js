@@ -3,8 +3,10 @@ import { useEffect, useState } from 'react';
 import './App.css';
 
 import NavBar from './NavBar';
-import QuizHome from './QuizComponents/QuizHome';
+import QuizContainer from './QuizComponents/QuizContainer';
 import FunFactsContainer from './FunFactsComponents/FunFactsContainer';
+import ScoreCard from './QuizComponents/ScoreCard';
+import Home from './Home';
 
 function App() {
   const [states, setStates] = useState([])
@@ -19,7 +21,7 @@ function App() {
       });
   }, []);
 
-  //function to update likes on individual state cards in FunFactsContainer.js
+  //function to update likes on individual state cards in
   function updateLikes(updatedState) {
     setStates((states) => 
       states.map((state) => {
@@ -32,15 +34,16 @@ function App() {
       <NavBar />
       <Switch>
         <Route path="/funfacts">
-          <FunFactsContainer
-            states={states}
-            updateLikes={updateLikes}
-          />
+          <FunFactsContainer states={states} updateLikes={updateLikes} />
         </Route>
-        <Route path="/">
-          <QuizHome
-            states={states}
-          />
+        <Route path="/quiz">
+          <QuizContainer states={states} />
+        </Route>
+        <Route path="/scorecard">
+          <ScoreCard />
+        </Route>
+        <Route exact path="/">
+          <Home />
         </Route>
       </Switch>
     </div>
