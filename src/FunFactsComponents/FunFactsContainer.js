@@ -48,7 +48,6 @@ export default function FunFactsContainer({ states, updateLikes }) {
       {sortedStates.map((state) => (
         <StateCard key={state.name} state={state} updateLikes={updateLikes} />
       ))}
-      )
     </div>
   );
 }

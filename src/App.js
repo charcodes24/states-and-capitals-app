@@ -1,5 +1,7 @@
 import { Route, Switch } from 'react-router-dom';
 import { useEffect, useState } from 'react';
+import { useHistory } from "react-router-dom";
+
 import './App.css';
 
 import NavBar from './NavBar';
@@ -11,6 +13,8 @@ import Home from './Home';
 function App() {
   const [states, setStates] = useState([])
   const [score, setScore] = useState(0)
+
+  let history = useHistory();
 
   //Initial GET fetch for all states
   useEffect(() => {
@@ -30,8 +34,15 @@ function App() {
       }))
   };
 
+  //function to update score
   function updateScore(score) {
     setScore(score + 1)
+  }
+
+  //function to reset score and start quiz
+  function restartQuiz() {
+    setScore(0)
+    history.push("/")
   }
 
   return (
@@ -42,10 +53,10 @@ function App() {
           <FunFactsContainer states={states} updateLikes={updateLikes} />
         </Route>
         <Route path="/quiz">
-          <QuizContainer states={states} />
+          <QuizContainer states={states} score={score} updateScore={updateScore} />
         </Route>
         <Route path="/scorecard">
-          <ScoreCard score={score}/>
+          <ScoreCard score={score} restartQuiz={restartQuiz}/>
         </Route>
         <Route exact path="/">
           <Home />
@@ -56,3 +67,5 @@ function App() {
 }
 
 export default App;
+
+// json-server --watch db.json --port 3004

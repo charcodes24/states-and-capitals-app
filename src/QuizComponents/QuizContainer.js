@@ -1,18 +1,44 @@
-import { useState, useEffect } from "react";
-import { Redirect } from "react-router-dom";
+import { useState } from "react";
 
-import ScoreCard from "./ScoreCard";
 import Timer from "./Timer";
+import QuestionItem from "./QuestionItem";
 
 
-export default function QuizContainer({ states }) {
+export default function QuizContainer({ states, score, updateScore }) {
+    const [answer, setAnswer] = useState("")
+    const [questionIndex, setQuestionIndex] = useState(0)
+
+    function handleInput(e) {
+      setAnswer(e.target.value);
+    }
+
+    function nextQuestion(e) {
+    if (answer === "") {
+      alert(`Please select an answer!`)
+    } else if (answer === states[questionIndex].capital && questionIndex < 51) {
+        setQuestionIndex(questionIndex + 1)
+        updateScore(score);
+        setAnswer(e.target.value)
+    } else {
+      setQuestionIndex(questionIndex + 1)
+        setAnswer(e.target.value)
+        return score
+    }
+  }
 
 
     return (
-        <div>
-            Quiz Container
-            <Timer />
-        </div>
-    )
+      <div>
+        <Timer />
+        <div>{score}</div>
+        <QuestionItem
+        state={states[questionIndex]}
+        nextQuestion={nextQuestion}
+        handleInput={handleInput}
+        score={score}
+        answer={answer}
+        />
+      </div>
+    );
 
 }
