@@ -38,16 +38,29 @@ export default function FunFactsContainer({ states, updateLikes }) {
       }
   });
 
+  const displayStates = sortedStates.map((state) => {
+    return (
+      <StateCard key={state.name} state={state} updateLikes={updateLikes} />
+    );
+  });
+
   return (
-    <div>
-      <SearchBar
-        search={search}
-        handleSearchChange={handleSearchChange}
-        handleSortChange={handleSortChange}
-      />
-      {sortedStates.map((state) => (
-        <StateCard key={state.name} state={state} updateLikes={updateLikes} />
-      ))}
+    <div className="funfacts-container">
+      <div className="title">
+        <div>
+          <h1>Fun Facts...</h1>
+        </div>
+        <div>
+          <SearchBar
+            search={search}
+            handleSearchChange={handleSearchChange}
+            handleSortChange={handleSortChange}
+          />
+        </div>
+      </div>
+      <div>
+        <div className="ui grid statecards">{displayStates}</div>
+      </div>
     </div>
   );
 }

@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/*styling for home page*/
+.home {
+    text-align: center;
+    margin-top: 18%;
+}
+
+/*styling for fun facts page*/
+.title {
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.funfacts-container {
+    margin-top: 10%;
+}
+
+.statecards {
+    justify-content: center;
+}
+
+.ui.card:last-child {
+    margin: 1em 0;
+}
+
+.ui.card:first-child {
+    margin: 1em 0;
+}

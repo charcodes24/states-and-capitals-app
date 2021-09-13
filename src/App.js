@@ -26,6 +26,8 @@ function App() {
       });
   }, []);
 
+  console.log(states)
+
   //function to update likes on individual state cards in
   function updateLikes(updatedState) {
     setStates((states) => 
