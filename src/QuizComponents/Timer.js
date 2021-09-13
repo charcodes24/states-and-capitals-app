@@ -17,9 +17,8 @@ export default function Timer({ score }) {
     return (
       <div className="timer score">
         {renderRedirect()}
-        <div>Time left:{timer}</div>
-        <div></div>
-        <div>Score: {score}</div>
+        <span>TIMER: {timer}</span>
+        <span>SCORE: {score}/50</span>
       </div>
     );
 }

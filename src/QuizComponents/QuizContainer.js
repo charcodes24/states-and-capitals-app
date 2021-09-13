@@ -28,14 +28,14 @@ export default function QuizContainer({ states, score, updateScore }) {
 
 
     return (
-      <div>
-        <Timer score={score}/>
+      <div className="question-container">
+        <Timer score={score} />
         <QuestionItem
-        state={states[questionIndex]}
-        nextQuestion={nextQuestion}
-        handleInput={handleInput}
-        score={score}
-        answer={answer}
+          state={states[questionIndex]}
+          nextQuestion={nextQuestion}
+          handleInput={handleInput}
+          score={score}
+          answer={answer}
         />
       </div>
     );

@@ -31,11 +31,12 @@ code {
     border-radius: 20px;
 }
 
-.navs div {
+a {
+    color: #4183c4;
+    text-decoration: none;
     padding: 10px;
-    font: white !important;
-
 }
+
 /*styling for quiz items*/
 .answer {
     display: flex;
