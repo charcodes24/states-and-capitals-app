@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Redirect } from "react-router-dom";
 
-export default function Timer() {
+export default function Timer({ score }) {
     const [timer, setTimer] = useState(5);
 
     useEffect(() => {
@@ -10,14 +10,16 @@ export default function Timer() {
 
     function renderRedirect() {
       if (timer === 0) {
-        return <Redirect to="/scorecard" />;
+        return <Redirect to="/retake_quiz" />;
       }
     }
 
     return (
-        <div>
-            {renderRedirect()}
-            <div>{timer}</div>
-        </div>
-    )
+      <div className="timer score">
+        {renderRedirect()}
+        <div>Time left:{timer}</div>
+        <div></div>
+        <div>Score: {score}</div>
+      </div>
+    );
 }

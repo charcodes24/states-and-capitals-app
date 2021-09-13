@@ -29,8 +29,7 @@ export default function QuizContainer({ states, score, updateScore }) {
 
     return (
       <div>
-        <Timer />
-        <div>{score}</div>
+        <Timer score={score}/>
         <QuestionItem
         state={states[questionIndex]}
         nextQuestion={nextQuestion}

@@ -7,7 +7,7 @@ import './App.css';
 import NavBar from './NavBar';
 import QuizContainer from './QuizComponents/QuizContainer';
 import FunFactsContainer from './FunFactsComponents/FunFactsContainer';
-import ScoreCard from './QuizComponents/ScoreCard';
+import ScoreCard from './QuizComponents/RetakeQuiz';
 import Home from './Home';
 
 function App() {
@@ -44,7 +44,7 @@ function App() {
   //function to reset score and start quiz
   function restartQuiz() {
     setScore(0)
-    history.push("/")
+    history.push("/quiz")
   }
 
   return (
@@ -57,7 +57,7 @@ function App() {
         <Route path="/quiz">
           <QuizContainer states={states} score={score} updateScore={updateScore} />
         </Route>
-        <Route path="/scorecard">
+        <Route path="/retake_quiz">
           <ScoreCard score={score} restartQuiz={restartQuiz}/>
         </Route>
         <Route exact path="/">
