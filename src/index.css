@@ -102,6 +102,10 @@ a {
     margin: 5px;
 }
 
+.timer.score {
+    font-size: 30px;
+}
+
 .timesup {
     text-align: center;
     margin-top: 90px;
@@ -137,4 +141,10 @@ a {
     margin-left: 25%;
     margin-right: 25%;
     max-width: 50%;
+}
+
+.timesup {
+    text-align: center;
+    margin-top: 30%;
+    font-size: 20px;
 }

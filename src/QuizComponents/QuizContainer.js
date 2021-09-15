@@ -6,7 +6,7 @@ import QuestionItem from "./QuestionItem";
 
 export default function QuizContainer({ states, score, updateScore }) {
     const [answer, setAnswer] = useState("")
-    const [questionIndex, setQuestionIndex] = useState(0)
+    const [questionIndex, setQuestionIndex] = useState(Math.floor(Math.random() * 50))
 
     function handleInput(e) {
       setAnswer(e.target.value);

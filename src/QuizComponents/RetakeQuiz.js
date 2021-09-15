@@ -4,7 +4,7 @@ export default function RetakeQuiz({ score, restartQuiz }) {
       <div className="timesup">
         <div>Times up!</div>
         <div>Your Score: {score}</div>
-        <button className="ui red basic button tu-button" onClick={restartQuiz}>
+        <button className="ui red basic button" onClick={restartQuiz}>
           Retake Quiz!
         </button>
       </div>
