@@ -1,3 +1,5 @@
+import { withRouter } from "react-router";
+
 export default function StateCard({ state, updateLikes }) {
   const { id, name, capital, image, fact, likes, est, flag } = state;
   console.log(id);
@@ -37,9 +39,9 @@ export default function StateCard({ state, updateLikes }) {
           alt={`Picture of ${name}`}
         />
         <div className="hidden content" style={backOfCardStyle}>
-          <h1>
+          <h2>
             {capital}, {name}
-          </h1>
+          </h2>
           <p style={{ fontSize: "16px", fontWeight: "bold", padding: "8px" }}>
             {fact}
           </p>

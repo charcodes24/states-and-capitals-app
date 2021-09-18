@@ -1,40 +1,94 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+    font-family: 'Advent Pro', sans-serif;
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 { 
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 80px;
+    margin-left: 23%;
+    margin-right: 23%;
+    color: rgb(187, 76, 76);
 }
+
+h1.title {
+    opacity: 1;
+}
+
+
+
+
+
+h2, h3 {
+    font-family: 'Advent Pro', sans-serif;
+}
+
+.funfacts {
+    color: rgb(12, 12, 179);
+}
+
+.instructions {
+    font-size: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+a .header {
+    font-family: 'Advent Pro', sans-serif;
+}
+
+div.question {
+    font-size: 100px;
+}
+
+.ui.basic.blue.button, .ui.basic.blue.buttons .button,
+.ui.basic.red.button, .ui.basic.red.buttons .button {
+    width: 100px;
+    height: 75px;
+    font-size: 20px;
+    font-family: 'Advent Pro', sans-serif;
+    text-align: center;
+}
+
 
 /*styling for home page*/
 .home {
+    
     text-align: center;
-    margin-top: 18%;
+    margin-top: 13%;
+}
+.ui.card>.content>.header:not(.ui), .ui.cards>.card>.content>.header:not(.ui) {
+    font-size: 2em;
+    margin-top: -.21425em;
+    line-height: 1.28571429em;
+    font-family: 'Advent Pro', sans-serif;
+    color: rgb(12, 12, 179);
+}  
+
+.ui.card .meta, .ui.cards>.card .meta {
+    font-size: 1.42em;
+    color: rgb(160, 28, 28);
 }
 
 /*styling for NavBar*/
 .navs {
     display: flex;
     padding: 20px;
-    font-size: 20px;
+    font-size: 35px;
+    color: rgb(11, 11, 202);
+    font-weight: bold;
     overflow: hidden;
     position: fixed;
     top: 0;
-    z-index: 200;
-    background-color: white;
-    border-radius: 20px;
+    z-index: 200;   
+
 }
 
 a {
     color: #4183c4;
     text-decoration: none;
     padding: 10px;
+    font-family: 'Luckiest Guy', cursive;
 }
 
 /*styling for quiz items*/
@@ -73,6 +127,11 @@ a {
     align-items: center;
     flex-direction: column;
     margin-top: 10%;
+    background: url('https://media.istockphoto.com/photos/july-4th-background-red-white-and-blue-colors-with-soft-faded-border-picture-id1252270160?b=1&k=20&m=1252270160&s=170667a&w=0&h=5nsTSRdk1KWKcjy-RssEHOr2Rfm3H2PkD_D3fsC5Iys=') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .answer div input {
@@ -106,9 +165,19 @@ a {
     font-size: 30px;
 }
 
-.timesup {
+.retake {
     text-align: center;
-    margin-top: 90px;
+    margin-top: 20%;
+    background: url('https://media.istockphoto.com/photos/july-4th-background-red-white-and-blue-colors-with-soft-faded-border-picture-id1252270160?b=1&k=20&m=1252270160&s=170667a&w=0&h=5nsTSRdk1KWKcjy-RssEHOr2Rfm3H2PkD_D3fsC5Iys=') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h2.timesup {
+    font-size: 50px;
+    margin: 0;
 }
 
 
@@ -119,6 +188,12 @@ a {
 }
 
 .funfacts-container {
+    background: url('https://media.istockphoto.com/photos/square-shaped-paper-confetti-in-american-flag-colors-falling-over-picture-id1243182857?b=1&k=20&m=1243182857&s=170667a&w=0&h=K7Oc5Am3aoiJgqQ7TLOgo9ty6e8QL0CJzvQdX_249u8=') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: .8;
     margin-top: 10%;
 }
 

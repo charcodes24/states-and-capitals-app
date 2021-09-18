@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 export default function Home() {
     return (
       <div className="home">
-        <h1>How well do you know your state capitals?</h1>
-        <h3>Take the quiz and find out! See how many you can get right in 60 seconds.</h3>
+        <h1 className="title">States & Capitals Quiz</h1>
+        <h3 className="instructions">How well do you know the states and capitals? Take the quiz and find out! See how many you can get right in 60 seconds...</h3>
         <Link to="/quiz">
-          <button className="ui red basic button">Start Quiz</button>
+          <button className="ui blue basic button">Start Quiz</button>
         </Link>
       </div>
     );

@@ -48,7 +48,7 @@ export default function FunFactsContainer({ states, updateLikes }) {
     <div className="funfacts-container">
       <div className="title">
         <div>
-          <h1>Fun Facts...</h1>
+          <h1 className="funfacts">Fun Facts...</h1>
         </div>
         <div>
           <SearchBar
