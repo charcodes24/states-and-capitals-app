@@ -2,9 +2,9 @@ export default function QuestionItem({ state, answer, nextQuestion, score, handl
     const { name, "answers": { answer1, answer2, answer3, answer4 } } = state
 
     return (
-           <div className="question-container">
+           <div className="question-item">
                 <div className="question">
-                    <h3>What's the state capital of {name}?</h3>
+                    <h3>What's the state capital of <b>{name}</b>?</h3>
                 </div>
                 <div className="answer options">
                     <div>

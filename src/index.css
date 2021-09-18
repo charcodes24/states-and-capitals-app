@@ -11,19 +11,12 @@ h1 {
     color: rgb(187, 76, 76);
 }
 
-h1.title {
-    opacity: 1;
-}
-
-
-
-
-
 h2, h3 {
     font-family: 'Advent Pro', sans-serif;
 }
 
-.funfacts {
+h1.funfacts {
+    font-size: 6.5em;
     color: rgb(12, 12, 179);
 }
 
@@ -40,8 +33,13 @@ a .header {
 div.question {
     font-size: 100px;
 }
-
-.ui.basic.blue.button, .ui.basic.blue.buttons .button,
+.ui.basic.blue.button, .ui.basic.blue.buttons .button {
+    width: 125px;
+    height: 75px;
+    font-size: 20px;
+    font-family: 'Advent Pro', sans-serif;
+    text-align: center;
+}
 .ui.basic.red.button, .ui.basic.red.buttons .button {
     width: 100px;
     height: 75px;
@@ -50,6 +48,10 @@ div.question {
     text-align: center;
 }
 
+h3:last-child {
+    margin-bottom: 0;
+    font-size: 40px;
+}
 
 /*styling for home page*/
 .home {
@@ -98,6 +100,7 @@ a {
     flex: 50%;
     max-width: 500px;
     align-items: center;
+    font-size: 23px;
 }
 
 .question {
@@ -118,7 +121,7 @@ a {
     margin-right: 1px;
     border: .5px solid red;
     border-radius: 10px;
-    font-size: 18px;
+    font-size: 23px;
 }
 
 .question-container {
@@ -126,13 +129,10 @@ a {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 10%;
-    background: url('https://media.istockphoto.com/photos/july-4th-background-red-white-and-blue-colors-with-soft-faded-border-picture-id1252270160?b=1&k=20&m=1252270160&s=170667a&w=0&h=5nsTSRdk1KWKcjy-RssEHOr2Rfm3H2PkD_D3fsC5Iys=') no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    margin-top: 15%;
 }
+
+.question-item
 
 .answer div input {
     margin: 5px;
@@ -163,6 +163,11 @@ a {
 
 .timer.score {
     font-size: 30px;
+    display: flex;
+}
+
+.timerscore {
+    flex-direction: column;
 }
 
 .retake {

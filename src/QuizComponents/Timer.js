@@ -5,7 +5,7 @@ export default function Timer({ score }) {
     const [timer, setTimer] = useState(5);
 
     useEffect(() => {
-      timer > 0 && setTimeout(() => setTimer(timer - 1), 1000);
+      timer > 0 && setTimeout(() => setTimer(timer - 1), 10000000000000000);
     }, [timer]);
 
     function renderRedirect() {
@@ -17,9 +17,10 @@ export default function Timer({ score }) {
     return (
       <div className="timer score">
         {renderRedirect()}
-        <span>TIMER: {timer}</span>
-        <br/>
-        <span>SCORE: {score}/50</span>
+        <div className="timer-score">
+          <span>TIMER: {timer}</span>
+          <span>SCORE: {score}/50</span>
+        </div>
       </div>
     );
 }
