@@ -13,7 +13,7 @@
       "image": "https://images.unsplash.com/photo-1547833189-5be29146428d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YWxhYmFtYXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "fact": "While Mardi Gras is most associated with New Orleans, the Alabama city of Mobile is where the tradition originated in the US.",
       "est": 1819,
-      "likes": 34
+      "likes": 37
     },
     {
       "id": 2,
@@ -28,7 +28,7 @@
       "image": "https://images.unsplash.com/photo-1574866412308-32d9023633dd?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YWxhc2thfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "fact": "Not only is Alaska the largest state in the country (more than twice as large as Texas), Wrangell–St Elias National Park & Preserve covers a larger area than nine US states.",
       "est": 1959,
-      "likes": 24
+      "likes": 25
     },
     {
       "id": 3,
@@ -43,7 +43,7 @@
       "image": "https://images.unsplash.com/photo-1609810074355-29137827b2c4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGFyaXpvbmF8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "fact": "Don’t get too close (ouch!) or scratch initials in saguaro cactus; fines for cactus graffiti run up to $5,000.",
       "est": 1912,
-      "likes": 21
+      "likes": 22
     },
     {
       "id": 4,
@@ -88,7 +88,7 @@
       "image": "https://images.unsplash.com/photo-1468711007652-03aab17ae4d2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29sb3JhZG98ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "fact": "The 13th step leading to the entrance of the Colorado State Capitol in Denver is exactly 1 mile above sea level. ",
       "est": 1876,
-      "likes": 23
+      "likes": 24
     },
     {
       "id": 7,
@@ -103,7 +103,7 @@
       "image": "https://images.unsplash.com/photo-1598040452656-f3657cdb27aa?ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3w5MjU0MDM4fHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "fact": "“Yankee Doodle,” the state song, is believed to have been penned in derision by the British about Connecticut volunteers in the French and Indian War. ",
       "est": 1788,
-      "likes": 5
+      "likes": 6
     },
     {
       "id": 8,
@@ -178,7 +178,7 @@
       "image": "https://images.unsplash.com/photo-1570188973506-253e77d46c12?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aWRhaG98ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "fact": "Yes, there is an Idaho Potato Museum. Yes, Idaho potatoes are an exceptionally delicious and abundant crop. You’ve probably had one; 13 billion pounds are harvested yearly. ",
       "est": 1890,
-      "likes": 2
+      "likes": 3
     },
     {
       "id": 13,
@@ -193,7 +193,7 @@
       "image": "https://images.unsplash.com/photo-1556684996-c32e7604965a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aWxsaW5vaXN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "fact": "Willis Tower (formerly Sears Tower) was the tallest building in the Americas until One World Trade Center in New York City eclipsed it, but the Willis Tower roof stands 100ft higher than that of One WTC, which took the title based on its lofty spire. ",
       "est": 1818,
-      "likes": 10
+      "likes": 11
     },
     {
       "id": 14,
@@ -208,7 +208,7 @@
       "image": "https://images.unsplash.com/photo-1514442624917-484106ff24b3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW5kaWFuYXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "fact": "Indiana, the “Crossroads of America,” has more miles of interstate per sq mile than any other US state. ",
       "est": 1816,
-      "likes": 8
+      "likes": 9
     },
     {
       "id": 15,
@@ -358,7 +358,7 @@
       "image": "https://images.unsplash.com/photo-1606494108752-9ae72e2ee1c9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bWlzc2lzc2lwcGl8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "fact": "The name of the state comes from the Ojibwe words Misi zipi, or “Great River.”",
       "est": 1817,
-      "likes": 7
+      "likes": 8
     },
     {
       "id": 25,
@@ -418,7 +418,7 @@
       "image": "https://images.unsplash.com/flagged/photo-1585766850532-cdc0d9a3b36b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bmV2YWRhfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "fact": "Averaging about 10 inches of rain a year, Nevada is the driest state in the US.",
       "est": 1864,
-      "likes": 3
+      "likes": 4
     },
     {
       "id": 29,
@@ -433,7 +433,7 @@
       "image": "https://images.unsplash.com/photo-1541427468627-a89a96e5ca1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bmV3JTIwaGFtcHNoaXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "fact": "The first free public library was founded in Peterborough, New Hampshire in 1833.",
       "est": 1788,
-      "likes": 2
+      "likes": 3
     },
     {
       "id": 30,
@@ -448,7 +448,7 @@
       "image": "https://images.unsplash.com/photo-1581782454084-d674f222419c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bmV3JTIwamVyc2V5fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "fact": "New Jersey has the most diners in the country. ",
       "est": 1787,
-      "likes": 2
+      "likes": 4
     },
     {
       "id": 31,
@@ -523,7 +523,7 @@
       "image": "https://images.unsplash.com/photo-1501631454901-2fe040439c00?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8b2hpb3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "fact": "Ohio’s state flag is the only burgee-shaped one in the country (it’s like a pennant with a triangle missing at the end). ",
       "est": 1803,
-      "likes": 3
+      "likes": 4
     },
     {
       "id": 36,
@@ -568,7 +568,7 @@
       "image": "https://images.unsplash.com/photo-1555424221-250de2a343ad?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGVubnN5bHZhbmlhfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "fact": "Pennsylvania’s small town of Indiana is known as the Christmas Tree Capital of the World, a testament to its status as one of the top suppliers of Christmas trees in the country.",
       "est": 1787,
-      "likes": 12
+      "likes": 13
     },
     {
       "id": 39,
@@ -613,7 +613,7 @@
       "image": "https://images.unsplash.com/photo-1447727214830-cbcbf097b52c?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c291dGglMjBkYWtvdGF8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "fact": "South Dakota has more lines of shoreline than Florida.",
       "est": 1889,
-      "likes": 7
+      "likes": 8
     },
     {
       "id": 42,
@@ -753,7 +753,7 @@
       "image": "https://images.unsplash.com/photo-1520051556831-05103c639f8e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHd5b21pbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "fact": "Devil's Tower was the first national monument in the US in 1906.",
       "est": 1890,
-      "likes": 7
+      "likes": 8
     }
   ]
 }

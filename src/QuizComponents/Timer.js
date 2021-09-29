@@ -5,7 +5,7 @@ export default function Timer({ score }) {
     const [timer, setTimer] = useState(5);
 
     useEffect(() => {
-      timer > 0 && setTimeout(() => setTimer(timer - 1), 10000000000000000);
+      timer > 0 && setTimeout(() => setTimer(timer - 1), 1000);
     }, [timer]);
 
     function renderRedirect() {

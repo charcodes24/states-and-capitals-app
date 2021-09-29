@@ -1,23 +1,19 @@
-import { withRouter } from "react-router";
 
 export default function StateCard({ state, updateLikes }) {
-  const { id, name, capital, image, fact, likes, est, flag } = state;
-  console.log(id);
+  const { id, name, capital, image, fact, likes, est } = state;
 
   function upVote(e) {
     e.preventDefault();
     const configObj = {
       method: "PATCH",
       headers: {
-        "content-type": "application/json",
+        "Content-Type": "application/json",
       },
-      body: JSON.stringify({ likes: likes + 1 }),
+      body: JSON.stringify({ "likes": likes + 1 }),
     };
-    fetch(`http://localhost:3000/states/${id}`, configObj)
+    fetch(`http://localhost:3004/states/${id}`, configObj)
       .then((res) => res.json())
-      .then((data) => {
-        updateLikes(data);
-      });
+      .then((data) => updateLikes(data))
   }
 
   const imageStyle = {
